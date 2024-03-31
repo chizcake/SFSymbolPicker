@@ -12,6 +12,10 @@ public struct SFSymbolPicker: View {
         viewModel.filteredSymbols(for: searchTerm)
     }
     
+    public init(selectedSymbol: Binding<String?>) {
+        _selectedSymbol = selectedSymbol
+    }
+    
     public var body: some View {
         NavigationStack {
             ScrollView(.vertical) {

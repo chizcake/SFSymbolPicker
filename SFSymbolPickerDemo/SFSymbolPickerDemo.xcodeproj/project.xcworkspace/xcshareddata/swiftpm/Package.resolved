@@ -1,0 +1,15 @@
+{
+  "originHash" : "53a6ef372bdf654284ceb8cd7676a82ff9a3659a75340bf90210d72d1b2b6673",
+  "pins" : [
+    {
+      "identity" : "sfsymbolpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chizcake/SFSymbolPicker.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d8ab8bb586d1b2b01f550d242cb54359de367702"
+      }
+    }
+  ],
+  "version" : 3
+}
